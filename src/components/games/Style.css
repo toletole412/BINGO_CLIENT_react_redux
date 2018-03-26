@@ -1,0 +1,22 @@
+.Board {
+  flex: 1;
+  margin: 30px ;
+  min-width: 10%;
+  max-width: 100%;
+  border: 8px solid #eee;
+}
+
+.Board .row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button:focus {
+  background-color: #F08080;
+}
